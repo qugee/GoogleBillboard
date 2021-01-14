@@ -4,6 +4,7 @@ public void setup()
  for(int i = 0; i<e.length()-10; i++){
  String digits = e.substring(i,i+10);
  double dNum = Double.parseDouble(digits);
+ if (isPrime == true)
  System.println(dNum);
  }
 }  
